@@ -1,7 +1,7 @@
-﻿using BlazorHero.CleanArchitecture.Application.Specifications.Base;
-using BlazorHero.CleanArchitecture.Domain.Entities.Catalog;
+﻿using BlazorHero.TraderWebApp.Application.Specifications.Base;
+using BlazorHero.TraderWebApp.Domain.Entities.Catalog;
 
-namespace BlazorHero.CleanArchitecture.Application.Specifications.Catalog
+namespace BlazorHero.TraderWebApp.Application.Specifications.Catalog
 {
     public class BrandFilterSpecification : HeroSpecification<Brand>
     {

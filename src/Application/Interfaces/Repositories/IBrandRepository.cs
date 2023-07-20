@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Application.Interfaces.Repositories
+﻿namespace BlazorHero.TraderWebApp.Application.Interfaces.Repositories
 {
     public interface IBrandRepository
     {

@@ -1,12 +1,12 @@
-﻿using BlazorHero.CleanArchitecture.Domain.Contracts;
+﻿using BlazorHero.TraderWebApp.Domain.Contracts;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Chat;
-using BlazorHero.CleanArchitecture.Application.Models.Chat;
+using BlazorHero.TraderWebApp.Application.Interfaces.Chat;
+using BlazorHero.TraderWebApp.Application.Models.Chat;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Models.Identity
+namespace BlazorHero.TraderWebApp.Infrastructure.Models.Identity
 {
     public class BlazorHeroUser : IdentityUser<string>, IChatUser, IAuditableEntity<string>
     {

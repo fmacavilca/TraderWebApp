@@ -1,11 +1,11 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Account;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
+﻿using BlazorHero.TraderWebApp.Application.Interfaces.Services;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services.Account;
+using BlazorHero.TraderWebApp.Application.Requests.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Server.Controllers.Identity
+namespace BlazorHero.TraderWebApp.Server.Controllers.Identity
 {
     [Authorize]
     [Route("api/identity/account")]

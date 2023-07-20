@@ -1,15 +1,15 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Account;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using BlazorHero.TraderWebApp.Application.Interfaces.Services;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services.Account;
+using BlazorHero.TraderWebApp.Infrastructure.Models.Identity;
+using BlazorHero.TraderWebApp.Application.Requests.Identity;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using Microsoft.AspNetCore.Identity;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Services.Identity
+namespace BlazorHero.TraderWebApp.Infrastructure.Services.Identity
 {
     public class AccountService : IAccountService
     {

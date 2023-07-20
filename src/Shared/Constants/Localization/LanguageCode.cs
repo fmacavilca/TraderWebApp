@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Shared.Constants.Localization
+﻿namespace BlazorHero.TraderWebApp.Shared.Constants.Localization
 {
     public class LanguageCode
     {

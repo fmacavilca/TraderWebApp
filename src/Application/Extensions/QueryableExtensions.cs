@@ -1,13 +1,13 @@
-﻿using BlazorHero.CleanArchitecture.Application.Exceptions;
-using BlazorHero.CleanArchitecture.Application.Specifications.Base;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using BlazorHero.TraderWebApp.Application.Exceptions;
+using BlazorHero.TraderWebApp.Application.Specifications.Base;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
+using BlazorHero.TraderWebApp.Domain.Contracts;
 
-namespace BlazorHero.CleanArchitecture.Application.Extensions
+namespace BlazorHero.TraderWebApp.Application.Extensions
 {
     public static class QueryableExtensions
     {

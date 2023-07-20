@@ -1,9 +1,9 @@
-﻿using BlazorHero.CleanArchitecture.Client.Infrastructure.Settings;
+﻿using BlazorHero.TraderWebApp.Client.Infrastructure.Settings;
 using MudBlazor;
 using System;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Client.Shared
+namespace BlazorHero.TraderWebApp.Client.Shared
 {
     public partial class MainLayout : IDisposable
     {

@@ -1,7 +1,7 @@
-﻿using BlazorHero.CleanArchitecture.Domain.Contracts;
+﻿using BlazorHero.TraderWebApp.Domain.Contracts;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BlazorHero.CleanArchitecture.Domain.Entities.Catalog
+namespace BlazorHero.TraderWebApp.Domain.Entities.Catalog
 {
     public class Product : AuditableEntity<int>
     {

@@ -1,8 +1,8 @@
 ﻿using Blazored.LocalStorage;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Authentication;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Preferences;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Authentication;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Managers;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Preferences;
+using BlazorHero.TraderWebApp.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -14,12 +14,12 @@ using System.Globalization;
 using System.Linq;
 using System.Net.Http;
 using System.Reflection;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.ExtendedAttribute;
-using BlazorHero.CleanArchitecture.Domain.Entities.ExtendedAttributes;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Managers.ExtendedAttribute;
+using BlazorHero.TraderWebApp.Domain.Entities.ExtendedAttributes;
+using BlazorHero.TraderWebApp.Domain.Entities.Misc;
 using Toolbelt.Blazor.Extensions.DependencyInjection;
 
-namespace BlazorHero.CleanArchitecture.Client.Extensions
+namespace BlazorHero.TraderWebApp.Client.Extensions
 {
     public static class WebAssemblyHostBuilderExtensions
     {

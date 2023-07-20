@@ -1,8 +1,8 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Serializers;
+﻿using BlazorHero.TraderWebApp.Application.Interfaces.Serialization.Serializers;
 using FluentValidation;
 using FluentValidation.Validators;
 
-namespace BlazorHero.CleanArchitecture.Application.Validators.Extensions
+namespace BlazorHero.TraderWebApp.Application.Validators.Extensions
 {
     public static class ValidatorExtensions
     {

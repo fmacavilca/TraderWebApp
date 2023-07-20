@@ -1,10 +1,10 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Infrastructure.Contexts;
-using BlazorHero.CleanArchitecture.Infrastructure.Helpers;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
-using BlazorHero.CleanArchitecture.Shared.Constants.Role;
-using BlazorHero.CleanArchitecture.Shared.Constants.User;
+﻿using BlazorHero.TraderWebApp.Application.Interfaces.Services;
+using BlazorHero.TraderWebApp.Infrastructure.Contexts;
+using BlazorHero.TraderWebApp.Infrastructure.Helpers;
+using BlazorHero.TraderWebApp.Infrastructure.Models.Identity;
+using BlazorHero.TraderWebApp.Shared.Constants.Permission;
+using BlazorHero.TraderWebApp.Shared.Constants.Role;
+using BlazorHero.TraderWebApp.Shared.Constants.User;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure
+namespace BlazorHero.TraderWebApp.Infrastructure
 {
     public class DatabaseSeeder : IDatabaseSeeder
     {
@@ -60,10 +60,10 @@ namespace BlazorHero.CleanArchitecture.Infrastructure
                 //Check if User Exists
                 var superUser = new BlazorHeroUser
                 {
-                    FirstName = "Mukesh",
-                    LastName = "Murugan",
-                    Email = "mukesh@blazorhero.com",
-                    UserName = "mukesh",
+                    FirstName = "TraderAdmin",
+                    LastName = "trader",
+                    Email = "trader@trader.com",
+                    UserName = "trader",
                     EmailConfirmed = true,
                     PhoneNumberConfirmed = true,
                     CreatedOn = DateTime.Now,

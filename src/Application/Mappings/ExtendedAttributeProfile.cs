@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetById;
-using BlazorHero.CleanArchitecture.Domain.Entities.ExtendedAttributes;
+using BlazorHero.TraderWebApp.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using BlazorHero.TraderWebApp.Application.Features.ExtendedAttributes.Queries.GetAll;
+using BlazorHero.TraderWebApp.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
+using BlazorHero.TraderWebApp.Application.Features.ExtendedAttributes.Queries.GetById;
+using BlazorHero.TraderWebApp.Domain.Entities.ExtendedAttributes;
 
-namespace BlazorHero.CleanArchitecture.Application.Mappings
+namespace BlazorHero.TraderWebApp.Application.Mappings
 {
     public class ExtendedAttributeProfile : Profile
     {

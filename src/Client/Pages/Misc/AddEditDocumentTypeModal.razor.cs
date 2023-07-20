@@ -1,14 +1,14 @@
 ﻿using System.Threading.Tasks;
 using Blazored.FluentValidation;
-using BlazorHero.CleanArchitecture.Application.Features.DocumentTypes.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Misc.DocumentType;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+using BlazorHero.TraderWebApp.Application.Features.DocumentTypes.Commands.AddEdit;
+using BlazorHero.TraderWebApp.Client.Extensions;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Misc.DocumentType;
+using BlazorHero.TraderWebApp.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using MudBlazor;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Misc
+namespace BlazorHero.TraderWebApp.Client.Pages.Misc
 {
     public partial class AddEditDocumentTypeModal
     {

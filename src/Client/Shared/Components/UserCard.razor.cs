@@ -1,9 +1,9 @@
-﻿using BlazorHero.CleanArchitecture.Client.Extensions;
+﻿using BlazorHero.TraderWebApp.Client.Extensions;
 using Microsoft.AspNetCore.Components;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Shared.Constants.Storage;
+using BlazorHero.TraderWebApp.Shared.Constants.Storage;
 
-namespace BlazorHero.CleanArchitecture.Client.Shared.Components
+namespace BlazorHero.TraderWebApp.Client.Shared.Components
 {
     public partial class UserCard
     {

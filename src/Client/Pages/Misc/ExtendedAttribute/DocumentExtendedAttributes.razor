@@ -1,9 +1,9 @@
 ﻿@page "/extended-attributes/{EntityName}/{EntityIdString}"
 @attribute [Authorize(Policy = Permissions.DocumentExtendedAttributes.View)]
 
-@using BlazorHero.CleanArchitecture.Domain.Entities.Misc
-@using BlazorHero.CleanArchitecture.Domain.Entities.ExtendedAttributes
-@namespace BlazorHero.CleanArchitecture.Client.Pages.Misc.ExtendedAttribute
+@using BlazorHero.TraderWebApp.Domain.Entities.Misc
+@using BlazorHero.TraderWebApp.Domain.Entities.ExtendedAttributes
+@namespace BlazorHero.TraderWebApp.Client.Pages.Misc.ExtendedAttribute
 
 @inherits ExtendedAttributes<int, int, Document, DocumentExtendedAttribute>
 

@@ -1,15 +1,15 @@
 ﻿using System.Linq;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using BlazorHero.TraderWebApp.Application.Interfaces.Repositories;
+using BlazorHero.TraderWebApp.Domain.Entities.Misc;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+using BlazorHero.TraderWebApp.Shared.Constants.Application;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.Documents.Commands.Delete
+namespace BlazorHero.TraderWebApp.Application.Features.Documents.Commands.Delete
 {
     public class DeleteDocumentCommand : IRequest<Result<int>>
     {

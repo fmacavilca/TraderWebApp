@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Routes
+﻿namespace BlazorHero.TraderWebApp.Client.Infrastructure.Routes
 {
     public static class AuditEndpoints
     {

@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Server.Localization
+﻿namespace BlazorHero.TraderWebApp.Server.Localization
 {
     internal class ServerCommonResources
     {

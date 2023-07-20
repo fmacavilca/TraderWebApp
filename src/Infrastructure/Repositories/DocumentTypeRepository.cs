@@ -1,7 +1,7 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
+﻿using BlazorHero.TraderWebApp.Application.Interfaces.Repositories;
+using BlazorHero.TraderWebApp.Domain.Entities.Misc;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Repositories
+namespace BlazorHero.TraderWebApp.Infrastructure.Repositories
 {
     public class DocumentTypeRepository : IDocumentTypeRepository
     {

@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Domain.Enums
+﻿namespace BlazorHero.TraderWebApp.Domain.Enums
 {
     public enum EntityExtendedAttributeType : byte
     {

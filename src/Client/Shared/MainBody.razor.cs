@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Roles;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+﻿using BlazorHero.TraderWebApp.Client.Extensions;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Identity.Roles;
+using BlazorHero.TraderWebApp.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using Microsoft.JSInterop;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Client.Shared
+namespace BlazorHero.TraderWebApp.Client.Shared
 {
     public partial class MainBody
     {

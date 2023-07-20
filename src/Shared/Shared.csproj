@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>BlazorHero.CleanArchitecture.Shared</RootNamespace>
-    <AssemblyName>BlazorHero.CleanArchitecture.Shared</AssemblyName>
+    <RootNamespace>BlazorHero.TraderWebApp.Shared</RootNamespace>
+    <AssemblyName>BlazorHero.TraderWebApp.Shared</AssemblyName>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 

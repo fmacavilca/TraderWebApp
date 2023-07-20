@@ -1,17 +1,17 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Application.Models.Chat;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
-using BlazorHero.CleanArchitecture.Domain.Entities.Catalog;
+﻿using BlazorHero.TraderWebApp.Application.Interfaces.Services;
+using BlazorHero.TraderWebApp.Application.Models.Chat;
+using BlazorHero.TraderWebApp.Infrastructure.Models.Identity;
+using BlazorHero.TraderWebApp.Domain.Contracts;
+using BlazorHero.TraderWebApp.Domain.Entities.Catalog;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Domain.Entities.ExtendedAttributes;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
+using BlazorHero.TraderWebApp.Domain.Entities.ExtendedAttributes;
+using BlazorHero.TraderWebApp.Domain.Entities.Misc;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Contexts
+namespace BlazorHero.TraderWebApp.Infrastructure.Contexts
 {
     public class BlazorHeroContext : AuditableContext
     {

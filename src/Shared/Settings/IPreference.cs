@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Shared.Settings
+﻿namespace BlazorHero.TraderWebApp.Shared.Settings
 {
     public interface IPreference
     {

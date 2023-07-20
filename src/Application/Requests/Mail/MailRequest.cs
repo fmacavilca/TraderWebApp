@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Application.Requests.Mail
+﻿namespace BlazorHero.TraderWebApp.Application.Requests.Mail
 {
     public class MailRequest
     {

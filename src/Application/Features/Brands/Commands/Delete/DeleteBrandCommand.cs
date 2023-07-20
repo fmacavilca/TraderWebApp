@@ -1,13 +1,13 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Entities.Catalog;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using BlazorHero.TraderWebApp.Application.Interfaces.Repositories;
+using BlazorHero.TraderWebApp.Domain.Entities.Catalog;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Localization;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+using BlazorHero.TraderWebApp.Shared.Constants.Application;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.Brands.Commands.Delete
+namespace BlazorHero.TraderWebApp.Application.Features.Brands.Commands.Delete
 {
     public class DeleteBrandCommand : IRequest<Result<int>>
     {

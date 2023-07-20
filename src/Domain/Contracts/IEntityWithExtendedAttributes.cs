@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BlazorHero.CleanArchitecture.Domain.Contracts
+namespace BlazorHero.TraderWebApp.Domain.Contracts
 {
     public interface IEntityWithExtendedAttributes<TExtendedAttribute>
     {

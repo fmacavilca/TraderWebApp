@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
+using BlazorHero.TraderWebApp.Domain.Contracts;
 
-namespace BlazorHero.CleanArchitecture.Application.Specifications.Base
+namespace BlazorHero.TraderWebApp.Application.Specifications.Base
 {
     public interface ISpecification<T> where T : class, IEntity
     {

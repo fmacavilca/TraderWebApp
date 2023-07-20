@@ -1,8 +1,8 @@
-﻿using BlazorHero.CleanArchitecture.Shared.Settings;
+﻿using BlazorHero.TraderWebApp.Shared.Settings;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 
-namespace BlazorHero.CleanArchitecture.Shared.Managers
+namespace BlazorHero.TraderWebApp.Shared.Managers
 {
     public interface IPreferenceManager
     {

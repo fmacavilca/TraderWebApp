@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Application.Interfaces.Repositories
+namespace BlazorHero.TraderWebApp.Application.Interfaces.Repositories
 {
     public interface IDocumentRepository
     {

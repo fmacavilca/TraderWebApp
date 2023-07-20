@@ -1,11 +1,11 @@
 ﻿using Blazored.FluentValidation;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
+using BlazorHero.TraderWebApp.Application.Requests.Identity;
 using Microsoft.AspNetCore.Components.Authorization;
 using MudBlazor;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Authentication
+namespace BlazorHero.TraderWebApp.Client.Pages.Authentication
 {
     public partial class Login
     {
@@ -56,7 +56,7 @@ namespace BlazorHero.CleanArchitecture.Client.Pages.Authentication
 
         private void FillAdministratorCredentials()
         {
-            _tokenModel.Email = "mukesh@blazorhero.com";
+            _tokenModel.Email = "trader@trader.com";
             _tokenModel.Password = "123Pa$$word!";
         }
 

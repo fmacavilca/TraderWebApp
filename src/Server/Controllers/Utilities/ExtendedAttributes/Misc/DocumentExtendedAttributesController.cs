@@ -1,13 +1,13 @@
 ﻿using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Domain.Entities.ExtendedAttributes;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
-using BlazorHero.CleanArchitecture.Server.Controllers.Utilities.ExtendedAttributes.Base;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using BlazorHero.TraderWebApp.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using BlazorHero.TraderWebApp.Domain.Entities.ExtendedAttributes;
+using BlazorHero.TraderWebApp.Domain.Entities.Misc;
+using BlazorHero.TraderWebApp.Server.Controllers.Utilities.ExtendedAttributes.Base;
+using BlazorHero.TraderWebApp.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlazorHero.CleanArchitecture.Server.Controllers.Utilities.ExtendedAttributes.Misc
+namespace BlazorHero.TraderWebApp.Server.Controllers.Utilities.ExtendedAttributes.Misc
 {
     public class DocumentExtendedAttributesController : ExtendedAttributesController<int, int, Document, DocumentExtendedAttribute>
     {

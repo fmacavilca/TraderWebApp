@@ -1,10 +1,10 @@
-﻿using BlazorHero.CleanArchitecture.Client.Infrastructure.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using BlazorHero.TraderWebApp.Client.Infrastructure.Extensions;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using System.Net.Http;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.Dashboards.Queries.GetData;
+using BlazorHero.TraderWebApp.Application.Features.Dashboards.Queries.GetData;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Dashboard
+namespace BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Dashboard
 {
     public class DashboardManager : IDashboardManager
     {

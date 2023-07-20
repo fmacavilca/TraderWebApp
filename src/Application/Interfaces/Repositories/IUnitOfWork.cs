@@ -1,9 +1,9 @@
-﻿using BlazorHero.CleanArchitecture.Domain.Contracts;
+﻿using BlazorHero.TraderWebApp.Domain.Contracts;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Application.Interfaces.Repositories
+namespace BlazorHero.TraderWebApp.Application.Interfaces.Repositories
 {
     public interface IUnitOfWork<TId> : IDisposable
     {

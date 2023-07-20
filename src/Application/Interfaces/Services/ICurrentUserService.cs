@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Common;
+﻿using BlazorHero.TraderWebApp.Application.Interfaces.Common;
 
-namespace BlazorHero.CleanArchitecture.Application.Interfaces.Services
+namespace BlazorHero.TraderWebApp.Application.Interfaces.Services
 {
     public interface ICurrentUserService : IService
     {

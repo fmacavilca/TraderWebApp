@@ -1,8 +1,8 @@
 ﻿#nullable enable
 using System;
-using BlazorHero.CleanArchitecture.Domain.Enums;
+using BlazorHero.TraderWebApp.Domain.Enums;
 
-namespace BlazorHero.CleanArchitecture.Domain.Contracts
+namespace BlazorHero.TraderWebApp.Domain.Contracts
 {
     public abstract class AuditableEntityExtendedAttribute<TId, TEntityId, TEntity>
         : AuditableEntity<TId>, IEntityAuditableExtendedAttribute<TId, TEntityId, TEntity>

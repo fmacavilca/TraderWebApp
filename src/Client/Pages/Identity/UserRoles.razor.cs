@@ -1,15 +1,15 @@
 ﻿using System;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Application.Responses.Identity;
+using BlazorHero.TraderWebApp.Application.Requests.Identity;
+using BlazorHero.TraderWebApp.Application.Responses.Identity;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using BlazorHero.TraderWebApp.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Identity
+namespace BlazorHero.TraderWebApp.Client.Pages.Identity
 {
     public partial class UserRoles
     {

@@ -2,18 +2,18 @@
 using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Storage;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Storage.Provider;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Serializers;
-using BlazorHero.CleanArchitecture.Application.Serialization.JsonConverters;
-using BlazorHero.CleanArchitecture.Infrastructure.Repositories;
-using BlazorHero.CleanArchitecture.Infrastructure.Services.Storage;
-using BlazorHero.CleanArchitecture.Application.Serialization.Options;
-using BlazorHero.CleanArchitecture.Infrastructure.Services.Storage.Provider;
-using BlazorHero.CleanArchitecture.Application.Serialization.Serializers;
+using BlazorHero.TraderWebApp.Application.Interfaces.Repositories;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services.Storage;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services.Storage.Provider;
+using BlazorHero.TraderWebApp.Application.Interfaces.Serialization.Serializers;
+using BlazorHero.TraderWebApp.Application.Serialization.JsonConverters;
+using BlazorHero.TraderWebApp.Infrastructure.Repositories;
+using BlazorHero.TraderWebApp.Infrastructure.Services.Storage;
+using BlazorHero.TraderWebApp.Application.Serialization.Options;
+using BlazorHero.TraderWebApp.Infrastructure.Services.Storage.Provider;
+using BlazorHero.TraderWebApp.Application.Serialization.Serializers;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Extensions
+namespace BlazorHero.TraderWebApp.Infrastructure.Extensions
 {
     public static class ServiceCollectionExtensions
     {

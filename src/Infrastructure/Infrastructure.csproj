@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>BlazorHero.CleanArchitecture.Infrastructure</RootNamespace>
-    <AssemblyName>BlazorHero.CleanArchitecture.Infrastructure</AssemblyName>
+    <RootNamespace>BlazorHero.TraderWebApp.Infrastructure</RootNamespace>
+    <AssemblyName>BlazorHero.TraderWebApp.Infrastructure</AssemblyName>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
@@ -37,6 +37,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj" />
     <ProjectReference Include="..\Shared\Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

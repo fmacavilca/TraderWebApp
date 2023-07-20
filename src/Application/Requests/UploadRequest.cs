@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Application.Enums;
+﻿using BlazorHero.TraderWebApp.Application.Enums;
 
-namespace BlazorHero.CleanArchitecture.Application.Requests
+namespace BlazorHero.TraderWebApp.Application.Requests
 {
     public class UploadRequest
     {

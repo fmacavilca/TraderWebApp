@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Commands.Delete;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.Export;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetById;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
+using BlazorHero.TraderWebApp.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using BlazorHero.TraderWebApp.Application.Features.ExtendedAttributes.Commands.Delete;
+using BlazorHero.TraderWebApp.Application.Features.ExtendedAttributes.Queries.Export;
+using BlazorHero.TraderWebApp.Application.Features.ExtendedAttributes.Queries.GetAll;
+using BlazorHero.TraderWebApp.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
+using BlazorHero.TraderWebApp.Application.Features.ExtendedAttributes.Queries.GetById;
+using BlazorHero.TraderWebApp.Domain.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlazorHero.CleanArchitecture.Server.Controllers.Utilities.ExtendedAttributes.Base
+namespace BlazorHero.TraderWebApp.Server.Controllers.Utilities.ExtendedAttributes.Base
 {
     /// <summary>
     /// Abstract Extended Attributes Controller Class

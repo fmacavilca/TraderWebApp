@@ -1,11 +1,11 @@
 ﻿using Blazored.LocalStorage;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Application.Responses.Identity;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Authentication;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Extensions;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Routes;
-using BlazorHero.CleanArchitecture.Shared.Constants.Storage;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using BlazorHero.TraderWebApp.Application.Requests.Identity;
+using BlazorHero.TraderWebApp.Application.Responses.Identity;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Authentication;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Extensions;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Routes;
+using BlazorHero.TraderWebApp.Shared.Constants.Storage;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.Extensions.Localization;
 using System;
@@ -15,7 +15,7 @@ using System.Net.Http.Json;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Authentication
+namespace BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Identity.Authentication
 {
     public class AuthenticationManager : IAuthenticationManager
     {

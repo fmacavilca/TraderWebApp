@@ -1,9 +1,9 @@
-﻿using BlazorHero.CleanArchitecture.Application.Requests.Identity;
+﻿using BlazorHero.TraderWebApp.Application.Requests.Identity;
 using MudBlazor;
 using System.Threading.Tasks;
 using Blazored.FluentValidation;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Authentication
+namespace BlazorHero.TraderWebApp.Client.Pages.Authentication
 {
     public partial class Register
     {

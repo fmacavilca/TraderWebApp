@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Text.Json;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Storage;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Storage.Provider;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Serializers;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services.Storage;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services.Storage.Provider;
+using BlazorHero.TraderWebApp.Application.Interfaces.Serialization.Serializers;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Services.Storage
+namespace BlazorHero.TraderWebApp.Infrastructure.Services.Storage
 {
     public class ServerStorageService : IServerStorageService, ISyncServerStorageService
     {

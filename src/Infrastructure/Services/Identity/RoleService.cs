@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Identity;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Application.Responses.Identity;
-using BlazorHero.CleanArchitecture.Infrastructure.Helpers;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
-using BlazorHero.CleanArchitecture.Shared.Constants.Role;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services.Identity;
+using BlazorHero.TraderWebApp.Application.Requests.Identity;
+using BlazorHero.TraderWebApp.Application.Responses.Identity;
+using BlazorHero.TraderWebApp.Infrastructure.Helpers;
+using BlazorHero.TraderWebApp.Infrastructure.Models.Identity;
+using BlazorHero.TraderWebApp.Shared.Constants.Role;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
@@ -13,10 +13,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services;
+using BlazorHero.TraderWebApp.Shared.Constants.Permission;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Services.Identity
+namespace BlazorHero.TraderWebApp.Infrastructure.Services.Identity
 {
     public class RoleService : IRoleService
     {

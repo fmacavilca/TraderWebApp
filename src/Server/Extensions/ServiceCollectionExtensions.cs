@@ -1,28 +1,28 @@
-﻿using BlazorHero.CleanArchitecture.Application.Configurations;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Options;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Serializers;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Settings;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Account;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Identity;
-using BlazorHero.CleanArchitecture.Application.Serialization.JsonConverters;
-using BlazorHero.CleanArchitecture.Application.Serialization.Options;
-using BlazorHero.CleanArchitecture.Application.Serialization.Serializers;
-using BlazorHero.CleanArchitecture.Application.Serialization.Settings;
-using BlazorHero.CleanArchitecture.Infrastructure;
-using BlazorHero.CleanArchitecture.Infrastructure.Contexts;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
-using BlazorHero.CleanArchitecture.Infrastructure.Services;
-using BlazorHero.CleanArchitecture.Infrastructure.Services.Identity;
-using BlazorHero.CleanArchitecture.Infrastructure.Shared.Services;
-using BlazorHero.CleanArchitecture.Server.Localization;
-using BlazorHero.CleanArchitecture.Server.Managers.Preferences;
-using BlazorHero.CleanArchitecture.Server.Services;
-using BlazorHero.CleanArchitecture.Server.Settings;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
-using BlazorHero.CleanArchitecture.Shared.Constants.Localization;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using BlazorHero.TraderWebApp.Application.Configurations;
+using BlazorHero.TraderWebApp.Application.Interfaces.Serialization.Options;
+using BlazorHero.TraderWebApp.Application.Interfaces.Serialization.Serializers;
+using BlazorHero.TraderWebApp.Application.Interfaces.Serialization.Settings;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services.Account;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services.Identity;
+using BlazorHero.TraderWebApp.Application.Serialization.JsonConverters;
+using BlazorHero.TraderWebApp.Application.Serialization.Options;
+using BlazorHero.TraderWebApp.Application.Serialization.Serializers;
+using BlazorHero.TraderWebApp.Application.Serialization.Settings;
+using BlazorHero.TraderWebApp.Infrastructure;
+using BlazorHero.TraderWebApp.Infrastructure.Contexts;
+using BlazorHero.TraderWebApp.Infrastructure.Models.Identity;
+using BlazorHero.TraderWebApp.Infrastructure.Services;
+using BlazorHero.TraderWebApp.Infrastructure.Services.Identity;
+using BlazorHero.TraderWebApp.Infrastructure.Shared.Services;
+using BlazorHero.TraderWebApp.Server.Localization;
+using BlazorHero.TraderWebApp.Server.Managers.Preferences;
+using BlazorHero.TraderWebApp.Server.Services;
+using BlazorHero.TraderWebApp.Server.Settings;
+using BlazorHero.TraderWebApp.Shared.Constants.Application;
+using BlazorHero.TraderWebApp.Shared.Constants.Localization;
+using BlazorHero.TraderWebApp.Shared.Constants.Permission;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
@@ -48,7 +48,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Server.Extensions
+namespace BlazorHero.TraderWebApp.Server.Extensions
 {
     internal static class ServiceCollectionExtensions
     {
@@ -156,7 +156,7 @@ namespace BlazorHero.CleanArchitecture.Server.Extensions
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "BlazorHero.CleanArchitecture",
+                    Title = "BlazorHero.TraderWebApp",
                     License = new OpenApiLicense
                     {
                         Name = "MIT License",

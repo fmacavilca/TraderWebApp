@@ -1,20 +1,20 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Documents.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Application.Requests.Documents;
-using BlazorHero.CleanArchitecture.Client.Extensions;
+﻿using BlazorHero.TraderWebApp.Application.Features.Documents.Queries.GetAll;
+using BlazorHero.TraderWebApp.Application.Requests.Documents;
+using BlazorHero.TraderWebApp.Client.Extensions;
 using MudBlazor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.Documents.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Misc.Document;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using BlazorHero.TraderWebApp.Application.Features.Documents.Commands.AddEdit;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Misc.Document;
+using BlazorHero.TraderWebApp.Domain.Entities.Misc;
+using BlazorHero.TraderWebApp.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Misc
+namespace BlazorHero.TraderWebApp.Client.Pages.Misc
 {
     public partial class DocumentStore
     {

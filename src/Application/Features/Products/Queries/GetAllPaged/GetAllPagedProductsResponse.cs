@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Application.Features.Products.Queries.GetAllPaged
+﻿namespace BlazorHero.TraderWebApp.Application.Features.Products.Queries.GetAllPaged
 {
     public class GetAllPagedProductsResponse
     {

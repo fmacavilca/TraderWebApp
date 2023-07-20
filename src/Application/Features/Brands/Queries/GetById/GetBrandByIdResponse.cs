@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Application.Features.Brands.Queries.GetById
+﻿namespace BlazorHero.TraderWebApp.Application.Features.Brands.Queries.GetById
 {
     public class GetBrandByIdResponse
     {

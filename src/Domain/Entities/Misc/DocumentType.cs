@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Domain.Contracts;
+﻿using BlazorHero.TraderWebApp.Domain.Contracts;
 
-namespace BlazorHero.CleanArchitecture.Domain.Entities.Misc
+namespace BlazorHero.TraderWebApp.Domain.Entities.Misc
 {
     public class DocumentType : AuditableEntity<int>
     {

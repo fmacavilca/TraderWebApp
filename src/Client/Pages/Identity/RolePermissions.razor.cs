@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using System.Security.Claims;
 using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Application.Responses.Identity;
-using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Mappings;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+using BlazorHero.TraderWebApp.Application.Requests.Identity;
+using BlazorHero.TraderWebApp.Application.Responses.Identity;
+using BlazorHero.TraderWebApp.Client.Extensions;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Mappings;
+using BlazorHero.TraderWebApp.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using MudBlazor;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Roles;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Identity.Roles;
+using BlazorHero.TraderWebApp.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Identity
+namespace BlazorHero.TraderWebApp.Client.Pages.Identity
 {
     public partial class RolePermissions
     {

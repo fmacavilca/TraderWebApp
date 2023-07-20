@@ -1,7 +1,7 @@
-﻿using BlazorHero.CleanArchitecture.Application.Models.Chat;
-using BlazorHero.CleanArchitecture.Application.Responses.Identity;
-using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+﻿using BlazorHero.TraderWebApp.Application.Models.Chat;
+using BlazorHero.TraderWebApp.Application.Responses.Identity;
+using BlazorHero.TraderWebApp.Client.Extensions;
+using BlazorHero.TraderWebApp.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.SignalR.Client;
@@ -11,11 +11,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Chat;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Communication;
-using BlazorHero.CleanArchitecture.Shared.Constants.Storage;
+using BlazorHero.TraderWebApp.Application.Interfaces.Chat;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Communication;
+using BlazorHero.TraderWebApp.Shared.Constants.Storage;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Communication
+namespace BlazorHero.TraderWebApp.Client.Pages.Communication
 {
     public partial class Chat
     {

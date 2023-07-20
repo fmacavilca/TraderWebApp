@@ -1,9 +1,9 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Serializers;
-using BlazorHero.CleanArchitecture.Application.Serialization.Settings;
+﻿using BlazorHero.TraderWebApp.Application.Interfaces.Serialization.Serializers;
+using BlazorHero.TraderWebApp.Application.Serialization.Settings;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 
-namespace BlazorHero.CleanArchitecture.Application.Serialization.Serializers
+namespace BlazorHero.TraderWebApp.Application.Serialization.Serializers
 {
     public class NewtonSoftJsonSerializer : IJsonSerializer
     {

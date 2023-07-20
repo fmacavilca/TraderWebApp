@@ -1,4 +1,4 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
+﻿using BlazorHero.TraderWebApp.Application.Interfaces.Services;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
 using System;
@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Localization;
 using System.IO;
 using System.Data;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Services
+namespace BlazorHero.TraderWebApp.Infrastructure.Services
 {
     public class ExcelService : IExcelService
     {

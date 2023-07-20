@@ -1,8 +1,8 @@
-﻿using BlazorHero.CleanArchitecture.Application.Requests.Identity;
+﻿using BlazorHero.TraderWebApp.Application.Requests.Identity;
 using FluentValidation;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Application.Validators.Requests.Identity
+namespace BlazorHero.TraderWebApp.Application.Validators.Requests.Identity
 {
     public class UpdateProfileRequestValidator : AbstractValidator<UpdateProfileRequest>
     {

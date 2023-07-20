@@ -1,8 +1,8 @@
-﻿using BlazorHero.CleanArchitecture.Application.Models.Chat;
+﻿using BlazorHero.TraderWebApp.Application.Models.Chat;
 using System.Collections.Generic;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Chat;
+using BlazorHero.TraderWebApp.Application.Interfaces.Chat;
 
-namespace BlazorHero.CleanArchitecture.Application.Responses.Identity
+namespace BlazorHero.TraderWebApp.Application.Responses.Identity
 {
     public class ChatUserResponse
     {

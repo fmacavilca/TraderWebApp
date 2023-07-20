@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Hosting;
 using Serilog;
 
-namespace BlazorHero.CleanArchitecture.Server.Extensions
+namespace BlazorHero.TraderWebApp.Server.Extensions
 {
     internal static class HostBuilderExtensions
     {

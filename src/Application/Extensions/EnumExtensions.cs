@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace BlazorHero.CleanArchitecture.Application.Extensions
+namespace BlazorHero.TraderWebApp.Application.Extensions
 {
     public static class EnumExtensions
     {

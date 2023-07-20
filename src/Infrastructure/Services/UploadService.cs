@@ -1,9 +1,9 @@
-﻿using BlazorHero.CleanArchitecture.Application.Extensions;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Application.Requests;
+﻿using BlazorHero.TraderWebApp.Application.Extensions;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services;
+using BlazorHero.TraderWebApp.Application.Requests;
 using System.IO;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Services
+namespace BlazorHero.TraderWebApp.Infrastructure.Services
 {
     public class UploadService : IUploadService
     {

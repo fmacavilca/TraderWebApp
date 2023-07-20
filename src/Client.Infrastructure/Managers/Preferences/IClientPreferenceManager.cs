@@ -1,8 +1,8 @@
-﻿using BlazorHero.CleanArchitecture.Shared.Managers;
+﻿using BlazorHero.TraderWebApp.Shared.Managers;
 using MudBlazor;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Preferences
+namespace BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Preferences
 {
     public interface IClientPreferenceManager : IPreferenceManager
     {

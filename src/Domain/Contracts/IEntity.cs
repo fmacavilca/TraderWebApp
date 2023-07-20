@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Domain.Contracts
+﻿namespace BlazorHero.TraderWebApp.Domain.Contracts
 {
     public interface IEntity<TId> : IEntity
     {

@@ -5,11 +5,11 @@ using MudBlazor;
 using System.Collections.Generic;
 using System.Reflection.Metadata;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Dashboard;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
-using BlazorHero.CleanArchitecture.Client.Extensions;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Dashboard;
+using BlazorHero.TraderWebApp.Shared.Constants.Application;
+using BlazorHero.TraderWebApp.Client.Extensions;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Content
+namespace BlazorHero.TraderWebApp.Client.Pages.Content
 {
     public partial class Dashboard
     {

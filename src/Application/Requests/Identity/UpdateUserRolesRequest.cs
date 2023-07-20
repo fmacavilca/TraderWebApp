@@ -1,7 +1,7 @@
-﻿using BlazorHero.CleanArchitecture.Application.Responses.Identity;
+﻿using BlazorHero.TraderWebApp.Application.Responses.Identity;
 using System.Collections.Generic;
 
-namespace BlazorHero.CleanArchitecture.Application.Requests.Identity
+namespace BlazorHero.TraderWebApp.Application.Requests.Identity
 {
     public class UpdateUserRolesRequest
     {

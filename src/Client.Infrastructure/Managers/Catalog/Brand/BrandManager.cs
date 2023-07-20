@@ -1,14 +1,14 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Brands.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using BlazorHero.TraderWebApp.Application.Features.Brands.Queries.GetAll;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Extensions;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.Brands.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.Brands.Commands.Import;
+using BlazorHero.TraderWebApp.Application.Features.Brands.Commands.AddEdit;
+using BlazorHero.TraderWebApp.Application.Features.Brands.Commands.Import;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Catalog.Brand
+namespace BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Catalog.Brand
 {
     public class BrandManager : IBrandManager
     {

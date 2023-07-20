@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Audit;
-using BlazorHero.CleanArchitecture.Application.Responses.Audit;
+using BlazorHero.TraderWebApp.Infrastructure.Models.Audit;
+using BlazorHero.TraderWebApp.Application.Responses.Audit;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Mappings
+namespace BlazorHero.TraderWebApp.Infrastructure.Mappings
 {
     public class AuditProfile : Profile
     {

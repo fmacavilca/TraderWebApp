@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Chat;
-using BlazorHero.CleanArchitecture.Application.Models.Chat;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
+using BlazorHero.TraderWebApp.Application.Interfaces.Chat;
+using BlazorHero.TraderWebApp.Application.Models.Chat;
+using BlazorHero.TraderWebApp.Infrastructure.Models.Identity;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Mappings
+namespace BlazorHero.TraderWebApp.Infrastructure.Mappings
 {
     public class ChatHistoryProfile : Profile
     {

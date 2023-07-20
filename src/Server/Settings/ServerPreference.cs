@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using BlazorHero.CleanArchitecture.Shared.Constants.Localization;
-using BlazorHero.CleanArchitecture.Shared.Settings;
+using BlazorHero.TraderWebApp.Shared.Constants.Localization;
+using BlazorHero.TraderWebApp.Shared.Settings;
 
-namespace BlazorHero.CleanArchitecture.Server.Settings
+namespace BlazorHero.TraderWebApp.Server.Settings
 {
     public record ServerPreference : IPreference
     {

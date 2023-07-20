@@ -2,12 +2,12 @@
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.DocumentTypes.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.DocumentTypes.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using BlazorHero.TraderWebApp.Application.Features.DocumentTypes.Commands.AddEdit;
+using BlazorHero.TraderWebApp.Application.Features.DocumentTypes.Queries.GetAll;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Extensions;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Misc.DocumentType
+namespace BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Misc.DocumentType
 {
     public class DocumentTypeManager : IDocumentTypeManager
     {

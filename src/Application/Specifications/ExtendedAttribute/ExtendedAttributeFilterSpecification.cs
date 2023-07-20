@@ -1,9 +1,9 @@
 ﻿using System;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.Export;
-using BlazorHero.CleanArchitecture.Application.Specifications.Base;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
+using BlazorHero.TraderWebApp.Application.Features.ExtendedAttributes.Queries.Export;
+using BlazorHero.TraderWebApp.Application.Specifications.Base;
+using BlazorHero.TraderWebApp.Domain.Contracts;
 
-namespace BlazorHero.CleanArchitecture.Application.Specifications.ExtendedAttribute
+namespace BlazorHero.TraderWebApp.Application.Specifications.ExtendedAttribute
 {
     public class ExtendedAttributeFilterSpecification<TId, TEntityId, TEntity, TExtendedAttribute>
         : HeroSpecification<TExtendedAttribute>

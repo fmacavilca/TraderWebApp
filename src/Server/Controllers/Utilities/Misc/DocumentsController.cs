@@ -1,13 +1,13 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Documents.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.Documents.Commands.Delete;
-using BlazorHero.CleanArchitecture.Application.Features.Documents.Queries.GetAll;
+﻿using BlazorHero.TraderWebApp.Application.Features.Documents.Commands.AddEdit;
+using BlazorHero.TraderWebApp.Application.Features.Documents.Commands.Delete;
+using BlazorHero.TraderWebApp.Application.Features.Documents.Queries.GetAll;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.Documents.Queries.GetById;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using BlazorHero.TraderWebApp.Application.Features.Documents.Queries.GetById;
+using BlazorHero.TraderWebApp.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 
-namespace BlazorHero.CleanArchitecture.Server.Controllers.Utilities.Misc
+namespace BlazorHero.TraderWebApp.Server.Controllers.Utilities.Misc
 {
     [Route("api/[controller]")]
     [ApiController]

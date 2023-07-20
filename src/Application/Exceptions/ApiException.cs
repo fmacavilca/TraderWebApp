@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace BlazorHero.CleanArchitecture.Application.Exceptions
+namespace BlazorHero.TraderWebApp.Application.Exceptions
 {
     public class ApiException : Exception
     {

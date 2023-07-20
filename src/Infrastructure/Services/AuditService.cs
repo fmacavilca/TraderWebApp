@@ -1,20 +1,20 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Audit;
-using BlazorHero.CleanArchitecture.Application.Responses.Audit;
-using BlazorHero.CleanArchitecture.Infrastructure.Contexts;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services;
+using BlazorHero.TraderWebApp.Infrastructure.Models.Audit;
+using BlazorHero.TraderWebApp.Application.Responses.Audit;
+using BlazorHero.TraderWebApp.Infrastructure.Contexts;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Extensions;
-using BlazorHero.CleanArchitecture.Infrastructure.Specifications;
+using BlazorHero.TraderWebApp.Application.Extensions;
+using BlazorHero.TraderWebApp.Infrastructure.Specifications;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Services
+namespace BlazorHero.TraderWebApp.Infrastructure.Services
 {
     public class AuditService : IAuditService
     {

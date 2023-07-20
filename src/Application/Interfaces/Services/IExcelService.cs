@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 
-namespace BlazorHero.CleanArchitecture.Application.Interfaces.Services
+namespace BlazorHero.TraderWebApp.Application.Interfaces.Services
 {
     public interface IExcelService
     {

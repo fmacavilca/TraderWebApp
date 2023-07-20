@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using Blazored.LocalStorage;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Settings;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Settings;
 using MudBlazor;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Shared.Constants.Storage;
-using BlazorHero.CleanArchitecture.Shared.Settings;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using BlazorHero.TraderWebApp.Shared.Constants.Storage;
+using BlazorHero.TraderWebApp.Shared.Settings;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Preferences
+namespace BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Preferences
 {
     public class ClientPreferenceManager : IClientPreferenceManager
     {

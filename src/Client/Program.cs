@@ -1,14 +1,14 @@
-using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Preferences;
+using BlazorHero.TraderWebApp.Client.Extensions;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Preferences;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Settings;
-using BlazorHero.CleanArchitecture.Shared.Constants.Localization;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Settings;
+using BlazorHero.TraderWebApp.Shared.Constants.Localization;
 
-namespace BlazorHero.CleanArchitecture.Client
+namespace BlazorHero.TraderWebApp.Client
 {
     public static class Program
     {

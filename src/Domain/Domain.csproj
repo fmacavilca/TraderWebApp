@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>BlazorHero.CleanArchitecture.Domain</RootNamespace>
-    <AssemblyName>BlazorHero.CleanArchitecture.Domain</AssemblyName>
+    <RootNamespace>BlazorHero.TraderWebApp.Domain</RootNamespace>
+    <AssemblyName>BlazorHero.TraderWebApp.Domain</AssemblyName>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 

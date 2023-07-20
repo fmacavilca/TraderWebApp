@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Brands.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+﻿using BlazorHero.TraderWebApp.Application.Features.Brands.Queries.GetAll;
+using BlazorHero.TraderWebApp.Client.Extensions;
+using BlazorHero.TraderWebApp.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using MudBlazor;
@@ -9,17 +9,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.Brands.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Catalog.Brand;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using BlazorHero.TraderWebApp.Application.Features.Brands.Commands.AddEdit;
+using BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Catalog.Brand;
+using BlazorHero.TraderWebApp.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.JSInterop;
-using BlazorHero.CleanArchitecture.Application.Features.Brands.Commands.Import;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
-using BlazorHero.CleanArchitecture.Application.Requests;
-using BlazorHero.CleanArchitecture.Client.Shared.Components;
+using BlazorHero.TraderWebApp.Application.Features.Brands.Commands.Import;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
+using BlazorHero.TraderWebApp.Application.Requests;
+using BlazorHero.TraderWebApp.Client.Shared.Components;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Catalog
+namespace BlazorHero.TraderWebApp.Client.Pages.Catalog
 {
     public partial class Brands
     {

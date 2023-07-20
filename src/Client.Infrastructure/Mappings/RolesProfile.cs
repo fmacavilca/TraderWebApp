@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Application.Responses.Identity;
+using BlazorHero.TraderWebApp.Application.Requests.Identity;
+using BlazorHero.TraderWebApp.Application.Responses.Identity;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Mappings
+namespace BlazorHero.TraderWebApp.Client.Infrastructure.Mappings
 {
     public class RoleProfile : Profile
     {

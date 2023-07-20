@@ -1,9 +1,9 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Application.Requests;
-using BlazorHero.CleanArchitecture.Domain.Entities.Catalog;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using BlazorHero.TraderWebApp.Application.Interfaces.Repositories;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services;
+using BlazorHero.TraderWebApp.Application.Requests;
+using BlazorHero.TraderWebApp.Domain.Entities.Catalog;
+using BlazorHero.TraderWebApp.Shared.Constants.Application;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using MediatR;
 using Microsoft.Extensions.Localization;
 using System;
@@ -14,10 +14,10 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Features.Brands.Commands.AddEdit;
+using BlazorHero.TraderWebApp.Application.Features.Brands.Commands.AddEdit;
 using FluentValidation;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.Brands.Commands.Import
+namespace BlazorHero.TraderWebApp.Application.Features.Brands.Commands.Import
 {
     public partial class ImportBrandsCommand : IRequest<Result<int>>
     {

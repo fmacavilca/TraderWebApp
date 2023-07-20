@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Application.Requests.Catalog
+﻿namespace BlazorHero.TraderWebApp.Application.Requests.Catalog
 {
     public class GetAllPagedProductsRequest : PagedRequest
     {

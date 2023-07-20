@@ -1,8 +1,8 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Products.Commands.AddEdit;
+﻿using BlazorHero.TraderWebApp.Application.Features.Products.Commands.AddEdit;
 using FluentValidation;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Application.Validators.Features.Products.Commands.AddEdit
+namespace BlazorHero.TraderWebApp.Application.Validators.Features.Products.Commands.AddEdit
 {
     public class AddEditProductCommandValidator : AbstractValidator<AddEditProductCommand>
     {

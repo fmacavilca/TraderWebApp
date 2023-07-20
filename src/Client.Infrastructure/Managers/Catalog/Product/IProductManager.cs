@@ -1,10 +1,10 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Products.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.Products.Queries.GetAllPaged;
-using BlazorHero.CleanArchitecture.Application.Requests.Catalog;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using BlazorHero.TraderWebApp.Application.Features.Products.Commands.AddEdit;
+using BlazorHero.TraderWebApp.Application.Features.Products.Queries.GetAllPaged;
+using BlazorHero.TraderWebApp.Application.Requests.Catalog;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Catalog.Product
+namespace BlazorHero.TraderWebApp.Client.Infrastructure.Managers.Catalog.Product
 {
     public interface IProductManager : IManager
     {

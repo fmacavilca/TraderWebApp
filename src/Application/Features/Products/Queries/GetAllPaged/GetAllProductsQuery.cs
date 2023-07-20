@@ -1,8 +1,8 @@
-﻿using BlazorHero.CleanArchitecture.Application.Extensions;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Application.Specifications.Catalog;
-using BlazorHero.CleanArchitecture.Domain.Entities.Catalog;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using BlazorHero.TraderWebApp.Application.Extensions;
+using BlazorHero.TraderWebApp.Application.Interfaces.Repositories;
+using BlazorHero.TraderWebApp.Application.Specifications.Catalog;
+using BlazorHero.TraderWebApp.Domain.Entities.Catalog;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using MediatR;
 using System;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Linq.Dynamic.Core;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.Products.Queries.GetAllPaged
+namespace BlazorHero.TraderWebApp.Application.Features.Products.Queries.GetAllPaged
 {
     public class GetAllProductsQuery : IRequest<PaginatedResult<GetAllPagedProductsResponse>>
     {

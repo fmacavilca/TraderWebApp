@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Shared.Managers;
+﻿using BlazorHero.TraderWebApp.Shared.Managers;
 
-namespace BlazorHero.CleanArchitecture.Server.Managers.Preferences
+namespace BlazorHero.TraderWebApp.Server.Managers.Preferences
 {
     public interface IServerPreferenceManager : IPreferenceManager
     {

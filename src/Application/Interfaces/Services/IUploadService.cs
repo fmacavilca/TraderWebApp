@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Application.Requests;
+﻿using BlazorHero.TraderWebApp.Application.Requests;
 
-namespace BlazorHero.CleanArchitecture.Application.Interfaces.Services
+namespace BlazorHero.TraderWebApp.Application.Interfaces.Services
 {
     public interface IUploadService
     {

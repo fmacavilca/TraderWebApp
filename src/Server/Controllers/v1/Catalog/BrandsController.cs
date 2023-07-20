@@ -1,15 +1,15 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Brands.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Application.Features.Brands.Queries.GetById;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+﻿using BlazorHero.TraderWebApp.Application.Features.Brands.Queries.GetAll;
+using BlazorHero.TraderWebApp.Application.Features.Brands.Queries.GetById;
+using BlazorHero.TraderWebApp.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.Brands.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.Brands.Commands.Delete;
-using BlazorHero.CleanArchitecture.Application.Features.Brands.Queries.Export;
-using BlazorHero.CleanArchitecture.Application.Features.Brands.Commands.Import;
+using BlazorHero.TraderWebApp.Application.Features.Brands.Commands.AddEdit;
+using BlazorHero.TraderWebApp.Application.Features.Brands.Commands.Delete;
+using BlazorHero.TraderWebApp.Application.Features.Brands.Queries.Export;
+using BlazorHero.TraderWebApp.Application.Features.Brands.Commands.Import;
 
-namespace BlazorHero.CleanArchitecture.Server.Controllers.v1.Catalog
+namespace BlazorHero.TraderWebApp.Server.Controllers.v1.Catalog
 {
     public class BrandsController : BaseApiController<BrandsController>
     {

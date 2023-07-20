@@ -1,6 +1,6 @@
 ﻿using MudBlazor;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Settings
+namespace BlazorHero.TraderWebApp.Client.Infrastructure.Settings
 {
     public class BlazorHeroTheme
     {

@@ -1,7 +1,7 @@
-using BlazorHero.CleanArchitecture.Application.Extensions;
-using BlazorHero.CleanArchitecture.Infrastructure.Extensions;
-using BlazorHero.CleanArchitecture.Server.Extensions;
-using BlazorHero.CleanArchitecture.Server.Middlewares;
+using BlazorHero.TraderWebApp.Application.Extensions;
+using BlazorHero.TraderWebApp.Infrastructure.Extensions;
+using BlazorHero.TraderWebApp.Server.Extensions;
+using BlazorHero.TraderWebApp.Server.Middlewares;
 using Hangfire;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,11 +11,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
-using BlazorHero.CleanArchitecture.Server.Filters;
-using BlazorHero.CleanArchitecture.Server.Managers.Preferences;
+using BlazorHero.TraderWebApp.Server.Filters;
+using BlazorHero.TraderWebApp.Server.Managers.Preferences;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Server
+namespace BlazorHero.TraderWebApp.Server
 {
     public class Startup
     {

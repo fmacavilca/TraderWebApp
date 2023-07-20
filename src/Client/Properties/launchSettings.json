@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "BlazorHero.CleanArchitecture": {
+    "BlazorHero.TraderWebApp": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Application.Features.Products.Queries.GetProductImage
+﻿namespace BlazorHero.TraderWebApp.Application.Features.Products.Queries.GetProductImage
 {
     public class GetProductImageResponse
     {

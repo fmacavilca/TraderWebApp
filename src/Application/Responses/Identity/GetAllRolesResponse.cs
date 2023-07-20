@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BlazorHero.CleanArchitecture.Application.Responses.Identity
+namespace BlazorHero.TraderWebApp.Application.Responses.Identity
 {
     public class GetAllRolesResponse
     {

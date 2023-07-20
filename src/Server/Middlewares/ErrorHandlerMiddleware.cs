@@ -1,5 +1,5 @@
-﻿using BlazorHero.CleanArchitecture.Application.Exceptions;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using BlazorHero.TraderWebApp.Application.Exceptions;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Server.Middlewares
+namespace BlazorHero.TraderWebApp.Server.Middlewares
 {
     public class ErrorHandlerMiddleware
     {

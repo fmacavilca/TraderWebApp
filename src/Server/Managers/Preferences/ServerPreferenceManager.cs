@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Storage;
-using BlazorHero.CleanArchitecture.Server.Settings;
-using BlazorHero.CleanArchitecture.Shared.Constants.Storage;
-using BlazorHero.CleanArchitecture.Shared.Settings;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using BlazorHero.TraderWebApp.Application.Interfaces.Services.Storage;
+using BlazorHero.TraderWebApp.Server.Settings;
+using BlazorHero.TraderWebApp.Shared.Constants.Storage;
+using BlazorHero.TraderWebApp.Shared.Settings;
+using BlazorHero.TraderWebApp.Shared.Wrapper;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Server.Managers.Preferences
+namespace BlazorHero.TraderWebApp.Server.Managers.Preferences
 {
     public class ServerPreferenceManager : IServerPreferenceManager
     {
